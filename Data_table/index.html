@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"
+
+  <title>Project 2</title>
+
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css" />
+
+</head>
+<body>
+
+  <p><br/></p>
+  <div class="container">
+    <h1>Data Table</h1>
+    <table class="table table-striped table-bordered table-hover" id="myTable">
+      <thead>
+        <tr>
+          <th>voornaam</th>
+          <th>tussenvoegsel</th>
+          <th>achternaam</th>
+          <th>adres</th>
+          <th>postcode</th>
+          <th>woonplaats</th>
+          <th>email</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <th>voornaam</th>
+          <th>tussenvoegsel</th>
+          <th>achternaam</th>
+          <th>adres</th>
+          <th>postcode</th>
+          <th>woonplaats</th>
+          <th>email</th>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td>Rick</td>
+          <td>de</td>
+          <td>Brink</td>
+          <td>de Haarweg 15</td>
+          <td>7775PW</td>
+          <td>Lutten</td>
+          <td>rickbrink_1@hotmail.com</td>
+        </tr>
+        <tr><td>Rick</td><td>de</td><td>Brink</td><td>de Haarweg 15</td><td>7775PW</td><td>Lutten</td><td>rickbrink_1@hotmail.com</td></tr>
+        <tr><td>Rick</td><td>de</td><td>Brink</td><td>de Haarweg 15</td><td>7775PW</td><td>Lutten</td><td>rickbrink_1@hotmail.com</td></tr>
+        <tr><td>Rick</td><td>de</td><td>Brink</td><td>de Haarweg 15</td><td>7775PW</td><td>Lutten</td><td>rickbrink_1@hotmail.com</td></tr>
+        <tr><td>Rick</td><td>de</td><td>Brink</td><td>de Haarweg 15</td><td>7775PW</td><td>Lutten</td><td>rickbrink_1@hotmail.com</td></tr>
+        <tr><td>Rick</td><td>de</td><td>Brink</td><td>de Haarweg 15</td><td>7775PW</td><td>Lutten</td><td>rickbrink_1@hotmail.com</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="//cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
+<script>
+$('#myTable').dataTable();
+</script>
+</body>
